@@ -46,6 +46,7 @@
             android:exported="false" />
         <activity
             android:name=".RegistrationDoneActivity"
+            android:theme="@style/noActionBar"
             android:exported="false" />
         <!--
              TODO: Before you run your application, you need a Google Maps API key.
@@ -65,12 +66,15 @@
         <activity
             android:name=".MyLocationActivity"
             android:exported="false"
+            android:screenOrientation="portrait"
             android:label="@string/title_activity_my_location" />
         <activity
             android:name=".LoginDoneActivity"
+            android:theme="@style/noActionBar"
             android:exported="false" />
         <activity
             android:name=".LoadingActivity"
+            android:theme="@style/noActionBar"
             android:exported="false" />
         <activity
             android:name=".Contact_usActivity"
@@ -83,15 +87,19 @@
             android:exported="false" />
         <activity
             android:name=".HomeActivity"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".RegistrationActivity"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".LoginActivity"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".SplashScreenActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/noActionBar"
             android:exported="true">
             <intent-filter>
