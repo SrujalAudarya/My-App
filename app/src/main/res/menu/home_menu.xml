@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home_menu_location"
+        android:title="@string/my_profile"
+        android:icon="@drawable/location_icon"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/home_menu_my_profile"
+        android:title="@string/my_profile"
+        android:icon="@drawable/name_icon"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/home_menu_camera"
+        android:title="@string/camera"
+        android:icon="@drawable/camera_icon"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/home_menu_contact_us"
+        android:title="@string/contact_us"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/home_menu_about_us"
+        android:title="@string/about_us"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/home_menu_bluetooth"
+        android:title="@string/bluetooth"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/home_menu_text_to_speech"
+        android:title="@string/text_to_speech_2"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/home_menu_setting"
+        android:title="@string/setting"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/home_menu_logout"
+        android:title="@string/logout"
+        app:showAsAction="never"
+        android:icon="@drawable/logout_icon" />
+</menu>

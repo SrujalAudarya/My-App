@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="name">Srujal Audarya</string>
+    <string name="quote">The most powerful warriors\n    are pattence and time</string>
+    <string name="login_page">Login Page</string>
+    <string name="enter_your_username">Enter Your Username</string>
+    <string name="register_sign_in">Dont Have an Account? Sign up</string>
+    <string name="login">Login</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="show_password">Show Password</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="enter_your_phone_number">\tEnter Your Mobile Number</string>
+    <string name="welcome_to_home_page">Welcome To Home Page</string>
+    <string name="welcome_to_login_page">Welcome To Login Page</string>
+    <string name="login_with">--Or Login With--</string>
+    <string name="welcome_to_registration_page">Welcome To Registration Page</string>
+    <string name="new_registration">New Registration</string>
+    <string name="et_name_name">Name</string>
+    <string name="mobile_no">Mobile No.</string>
+    <string name="enter_your_email_id">Enter Your Email ID</string>
+    <string name="email_id">Email ID</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="conform_password">Enter Confirm Password</string>
+    <string name="et_conform_password">Confirm Password</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="choose_gender">Choose Gender</string>
+    <string name="my_profile">My Profile</string>
+    <string name="setting">Setting</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="about_us">About Us</string>
+    <string name="logout">Logout</string>
+    <string name="login_successfully_done">Login Successfully Done</string>
+    <string name="camera">Camera</string>
+    <string name="welcome_to_chats_fragment">Welcome to Chats Fragment</string>
+    <string name="welcome_to_calls_fragment">Welcome to Calls Fragment</string>
+    <string name="welcome_to_status_fragment">Welcome to Status Fragment</string>
+    <string name="title_activity_my_location">MyLocationActivity</string>
+    <string name="registration_successfully_done">Registration Successfully Done....!</string>
+    <string name="satellite">Satellite</string>
+    <string name="terrain">Terrain</string>
+    <string name="normal">Normal</string>
+    <string name="hybrid">Hybrid</string>
+    <string name="terms_condition"><![CDATA[Terms & Condition]]></string>
+    <string name="enter_username_is">Enter Username is:</string>
+    <string name="enter_password_is">Enter Password is:</string>
+    <string name="enter_your_message">Enter Your Message</string>
+    <string name="send">SEND</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_to_speech">Enter Your Text To Speech</string>
+    <string name="enter_your_text">Enter Your Text</string>
+    <string name="choose_the_pitch">Choose The Pitch</string>
+    <string name="choose_the_speed">Choose The Speed</string>
+    <string name="speak">SPEAK</string>
+    <string name="text_to_speech_2">Text To Speech</string>
+    <string name="click_to_photo">Click To Photo</string>
+    <string name="title_activity_settings22">SettingsActivity22</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="turn_on">Turn On</string>
+    <string name="get_visible">Get visible</string>
+    <string name="list_device">List devices</string>
+    <string name="turn_off">Turn Off</string>
+    <string name="paired_devices">Paired Devices</string>
+
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#86D4F8"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".LoginDoneActivity">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        app:lottie_rawRes="@raw/successful_login"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        android:layout_margin="16sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_successfully_done"
+        android:textColor="#03405C"
+        android:fontFamily="@font/aclonica"
+        android:textStyle="bold|italic"
+        android:textSize="20sp"
+        />
+
+</LinearLayout>

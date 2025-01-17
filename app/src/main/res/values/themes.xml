@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyApplication" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+     <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+     <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+    </style>
+
+    <style name="Theme.MyApplication" parent="Base.Theme.MyApplication" />
+
+    <style name="myTabStyle" parent="TextAppearance.AppCompat">
+
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-condensed-medium</item>
+
+    </style>
+
+    <style name="noActionBar" parent="Theme.AppCompat.NoActionBar"/>
+
+</resources>

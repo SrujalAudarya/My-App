@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".LoginActivity">
+
+        <TextView
+        android:id="@+id/tv_login_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_to_login_page"
+        android:gravity="center"
+        android:layout_marginTop="15sp"
+        android:textSize="20sp"
+        android:textColor="#03A9F4"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:layout_margin="16sp"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="180dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/login" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#02151515"
+        app:cardCornerRadius="16sp"
+        app:cardElevation="16sp"
+        android:layout_margin="10sp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/login_page"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center"
+                android:text="@string/login_page"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+             <EditText
+                android:id="@+id/et_login_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:hint="@string/enter_your_username"
+                android:inputType="textEmailAddress"
+                android:minHeight="48dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/gray"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:drawableStart="@drawable/username_icon"
+                android:autofillHints=""
+                tools:ignore="VisualLintTextFieldSize" />
+
+             <EditText
+                android:id="@+id/et_login_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:hint="@string/enter_your_password"
+                android:inputType="textPassword"
+                android:minHeight="48dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/gray"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:drawableStart="@drawable/password_icon"
+                android:autofillHints=""
+                tools:ignore="VisualLintTextFieldSize" />
+
+
+            <CheckBox
+                android:id="@+id/cb_login_show_hide"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:minHeight="48dp"
+                android:text="@string/show_password"
+                android:textColor="#323131"
+                android:textSize="16sp"
+                android:textStyle="bold|italic"
+                tools:ignore="VisualLintButtonSize" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="50sp"
+                android:layout_gravity="center"
+                android:backgroundTint="#7903A9F4"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="@string/login"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#EAEFF1"
+                android:drawableEnd="@drawable/login_icon"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/tv_login_new_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16sp"
+                android:gravity="center"
+                android:text="@string/register_sign_in"
+                android:textColor="#04354A"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/tv_term_condition"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16sp"
+                android:gravity="center"
+                android:text="@string/terms_condition"
+                android:textColor="#04354A"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+     <TextView
+                android:id="@+id/tv_login_with"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/login_with"
+                android:textColor="#023F5A"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/img_facebook_icon"
+        android:layout_width="250sp"
+        android:layout_height="50sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:contentDescription="TODO"
+        android:src="@drawable/login_with_icon"
+        tools:ignore="ContentDescription,HardcodedText" />
+
+</LinearLayout>

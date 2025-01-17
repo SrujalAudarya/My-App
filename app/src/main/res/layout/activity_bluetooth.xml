@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BluetoothActivity">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/bluetooth_page_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40sp"
+            android:fontFamily="@font/archive_black"
+            android:text="@string/bluetooth"
+            android:textAlignment="center"
+            android:textColor="#0526E3"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/img_bluetooth_icon"
+            android:layout_width="243dp"
+            android:layout_height="241dp"
+            android:layout_gravity="center"
+            android:layout_margin="28sp"
+            android:src="@drawable/logo_img" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_bluetooth_turn_on"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="2sp"
+            android:fontFamily="@font/archive_black"
+            android:text="@string/turn_on"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="@drawable/background_shape"
+            android:onClick="bluetoothTurnOn"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_bluetooth_getvisible"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="2sp"
+            android:fontFamily="@font/archive_black"
+            android:text="@string/get_visible"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="@drawable/background_shape"
+            android:onClick="getVisible"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+
+                 <androidx.appcompat.widget.AppCompatButton
+                      android:id="@+id/btn_bluetooth_list_device"
+                      android:layout_width="0dp"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:layout_margin="2sp"
+                      android:fontFamily="@font/archive_black"
+                      android:text="@string/list_device"
+                      android:textSize="16sp"
+                      android:textStyle="bold"
+                      android:textColor="@color/black"
+                      android:background="@drawable/background_shape"
+                      android:onClick="listDevices"/>
+
+               <androidx.appcompat.widget.AppCompatButton
+                     android:id="@+id/btn_bluetooth_turn_off"
+                     android:layout_width="0dp"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:layout_margin="2sp"
+                     android:fontFamily="@font/archive_black"
+                     android:text="@string/turn_off"
+                     android:textSize="16sp"
+                     android:textStyle="bold"
+                     android:textColor="@color/black"
+                     android:background="@drawable/background_shape"
+                     android:onClick="turnOff"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_bluetooth_pairdevicetitle"
+            android:text="@string/paired_devices"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textColor="#0526E3"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/archive_black" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_bluetooth_showpairdevices"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+
+</ScrollView>
